@@ -8,13 +8,17 @@ function Banner() {
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
-             KitabAdda, welcome here to learn something{" "}
+             Recollect, welcome here to learn something{" "}
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
             Unlock the magic of words with our curated collections, crafted just for you
             </p>
-            <label className="input input-bordered flex items-center gap-2">
+            <p className="md:text-4xl mt-4 text-blue-300">
+              Read and collect 
+            </p>
+            <p>Read and make your personalised short notes using AI chat</p>
+            {/* <label className="input input-bordered flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -25,9 +29,9 @@ function Banner() {
                 <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
               </svg>
               <input type="text" className="grow" placeholder="Email" />
-            </label>
+            </label> */}
           </div>
-          <button className="btn mt-6 btn-secondary">Get Started</button>
+          {/* <button className="btn mt-6 btn-secondary">Get Started</button> */}
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img
