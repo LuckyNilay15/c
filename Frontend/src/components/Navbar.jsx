@@ -45,10 +45,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/chat">ChatnSummarize</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/notes">YourShortNotes</a>
       </li>
     </>
   );
@@ -91,7 +91,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">KitabAdda</a>
+            <a className=" text-2xl font-bold cursor-pointer">Recollect</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
